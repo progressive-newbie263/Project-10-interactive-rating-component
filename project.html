@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>
+    Frontend Mentor | Interactive rating component
+  </title>
+  <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+  <main>
+  <div class="container">
+    <div>
+      <img class="star-icon" alt="star" src="images/icon-star.svg">
+    </div>
+    <div class="content">
+      <div class="title">
+        How did we do?
+      </div>
+      <div class="lower-title">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </div>
+    </div>
+    <div class="point-container">
+      <button onclick="changeColor('.js-button-1')" class="js-button-1 point-button">1</button>
+      <button onclick="changeColor('.js-button-2')" class="js-button-2 point-button">2</button>
+      <button onclick="changeColor('.js-button-3')" class="js-button-3 point-button">3</button>
+      <button onclick="changeColor('.js-button-4')" class="js-button-4 point-button">4</button>
+      <button onclick="changeColor('.js-button-5')" class="js-button-5 point-button">5</button>
+    </div>
+    
+    <div onclick="submitRating();" class="submit-button">
+      SUBMIT
+    </div>
+  </div>
+
+  <div class="container2 hidden">
+    <div class="submit-page">
+      <div>
+        <img class="thank-you-icon" alt="thank-you" src="images/illustration-thank-you.svg">
+      </div>
+      <div class="content">
+        <div class="announcement">
+          You selected <span></span> out of 5
+        </div>
+        <div class="title">
+          Thank you!
+        </div>
+        <div class="lower-title">
+          We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/NewCoder20">JackFrost</a>.
+  </div>
+</body>
+<script src="project.js"></script>
+</html>
+

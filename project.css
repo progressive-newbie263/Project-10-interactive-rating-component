@@ -1,0 +1,122 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Overpass, Arial;
+  font-size: 15px;
+  margin: 0;
+  color: white;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  font-size: 11px; 
+  text-align: center; 
+}
+    
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.container, .container2 {
+  width: 325px;
+  padding: 25px;
+  background-color: hsl(213, 19%, 18%);
+  align-items: center;
+  border-radius: 20px;
+}
+
+.star-icon {
+  padding: 15px;
+  object-fit: cover;
+  border-radius: 50px;
+  background-color: hsl(200, 20%, 20%);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.lower-title {
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 15px;
+}
+
+.point-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.point-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(200, 20%, 20%);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 700;
+  transition: 0.15s;
+}
+
+.point-button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.changed-point-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 700;
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
+.submit-button {
+  background-color: hsl(25, 97%, 53%);
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.submit-page {
+  align-items: center;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.announcement {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 25px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(200, 20%, 20%);
+  margin-bottom: 20px;
+}
